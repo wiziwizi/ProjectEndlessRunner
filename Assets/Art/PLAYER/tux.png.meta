@@ -1,0 +1,593 @@
+fileFormatVersion: 2
+guid: aab89b94c6f69e84eb74e4441a597e0a
+timeCreated: 1473926689
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: tux_from_linux_0
+    21300002: tux_from_linux_1
+    21300004: tux_from_linux_2
+    21300006: tux_from_linux_3
+    21300008: tux_from_linux_4
+    21300010: tux_from_linux_5
+    21300012: tux_from_linux_6
+    21300014: tux_from_linux_7
+    21300016: tux_from_linux_8
+    21300018: tux_from_linux_9
+    21300020: tux_from_linux_10
+    21300022: tux_from_linux_11
+    21300024: tux_from_linux_12
+    21300026: tux_from_linux_13
+    21300028: tux_from_linux_14
+    21300030: tux_from_linux_15
+    21300032: tux_from_linux_16
+    21300034: tux_from_linux_17
+    21300036: tux_from_linux_18
+    21300038: tux_from_linux_19
+    21300040: tux_from_linux_20
+    21300042: tux_from_linux_21
+    21300044: tux_from_linux_22
+    21300046: tux_from_linux_23
+    21300048: tux_from_linux_24
+    21300050: tux_from_linux_25
+    21300052: tux_from_linux_26
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: tux_from_linux_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 25}
+        - {x: -14, y: 25}
+        - {x: -21, y: 19}
+        - {x: -22, y: 16}
+        - {x: -22, y: -28}
+        - {x: -19, y: -40}
+        - {x: 17, y: -40}
+        - {x: 20, y: -27}
+        - {x: 20, y: 16}
+    - name: tux_from_linux_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 640
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 24}
+        - {x: -22, y: 22}
+        - {x: -22, y: -40}
+        - {x: 20, y: -40}
+        - {x: 20, y: 24}
+    - name: tux_from_linux_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 640
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 24}
+        - {x: -18, y: 24}
+        - {x: -22, y: 14}
+        - {x: -22, y: -12}
+        - {x: -16, y: -40}
+        - {x: 18, y: -40}
+        - {x: 20, y: -29}
+        - {x: 20, y: 14}
+    - name: tux_from_linux_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -21, y: 6}
+        - {x: -21, y: -38}
+        - {x: -20, y: -40}
+        - {x: 22, y: -40}
+        - {x: 28, y: -14}
+        - {x: 28, y: 18}
+        - {x: 16, y: 25}
+    - name: tux_from_linux_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 560
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 25}
+        - {x: -5, y: 25}
+        - {x: -18, y: 18}
+        - {x: -21, y: 0}
+        - {x: -21, y: -36}
+        - {x: -20, y: -40}
+        - {x: 20, y: -40}
+        - {x: 26, y: -27}
+        - {x: 28, y: -14}
+        - {x: 28, y: 22}
+    - name: tux_from_linux_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 560
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -40}
+        - {x: 28, y: -26}
+        - {x: 28, y: 21}
+        - {x: 23, y: 25}
+        - {x: -21, y: 25}
+        - {x: -21, y: -40}
+    - name: tux_from_linux_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 19}
+        - {x: 9, y: 30}
+        - {x: -17, y: 30}
+        - {x: -27, y: 19}
+        - {x: -27, y: -25}
+        - {x: -14, y: -35}
+        - {x: 17, y: -35}
+        - {x: 22, y: -16}
+        - {x: 22, y: -2}
+    - name: tux_from_linux_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 480
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 38}
+        - {x: -27, y: 32}
+        - {x: -27, y: -4}
+        - {x: -16, y: -29}
+        - {x: 15, y: -29}
+        - {x: 19, y: -20}
+        - {x: 19, y: 21}
+        - {x: 13, y: 38}
+    - name: tux_from_linux_8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 480
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 34}
+        - {x: -26, y: 12}
+        - {x: -26, y: -22}
+        - {x: -23, y: -30}
+        - {x: -14, y: -31}
+        - {x: 20, y: -31}
+        - {x: 27, y: -12}
+        - {x: 27, y: 25}
+        - {x: 22, y: 34}
+    - name: tux_from_linux_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 18}
+        - {x: 13, y: 26}
+        - {x: 9, y: 27}
+        - {x: -16, y: 27}
+        - {x: -24, y: 19}
+        - {x: -24, y: -6}
+        - {x: -17, y: -39}
+        - {x: -12, y: -40}
+        - {x: 15, y: -40}
+        - {x: 18, y: -24}
+    - name: tux_from_linux_10
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 400
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 27}
+        - {x: -25, y: 24}
+        - {x: -25, y: -19}
+        - {x: -18, y: -40}
+        - {x: 17, y: -40}
+        - {x: 17, y: 27}
+    - name: tux_from_linux_11
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 400
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 27}
+        - {x: -24, y: 18}
+        - {x: -24, y: -21}
+        - {x: -17, y: -37}
+        - {x: -16, y: -39}
+        - {x: 8, y: -39}
+        - {x: 19, y: -36}
+        - {x: 19, y: 20}
+        - {x: 7, y: 27}
+    - name: tux_from_linux_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 25}
+        - {x: -25, y: 12}
+        - {x: -25, y: -32}
+        - {x: -17, y: -40}
+        - {x: 20, y: -40}
+        - {x: 20, y: 19}
+        - {x: 16, y: 25}
+    - name: tux_from_linux_13
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 320
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 25}
+        - {x: -14, y: 25}
+        - {x: -20, y: 18}
+        - {x: -20, y: -22}
+        - {x: -17, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: 17}
+        - {x: 18, y: 24}
+    - name: tux_from_linux_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 320
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -17, y: 19}
+        - {x: -18, y: 11}
+        - {x: -18, y: -19}
+        - {x: -15, y: -40}
+        - {x: 20, y: -40}
+        - {x: 24, y: -21}
+        - {x: 24, y: 25}
+    - name: tux_from_linux_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 25}
+        - {x: -24, y: -30}
+        - {x: -21, y: -40}
+        - {x: 19, y: -40}
+        - {x: 21, y: -29}
+        - {x: 21, y: 24}
+        - {x: 16, y: 25}
+    - name: tux_from_linux_16
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 240
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 25}
+        - {x: -26, y: 21}
+        - {x: -26, y: -36}
+        - {x: -23, y: -40}
+        - {x: 22, y: -40}
+        - {x: 22, y: 24}
+        - {x: 20, y: 25}
+    - name: tux_from_linux_17
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 25}
+        - {x: -26, y: -17}
+        - {x: -16, y: -40}
+        - {x: 1, y: -40}
+        - {x: 25, y: -34}
+        - {x: 25, y: 6}
+        - {x: 12, y: 25}
+    - name: tux_from_linux_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 39}
+        - {x: -25, y: 29}
+        - {x: -25, y: -10}
+        - {x: -10, y: -29}
+        - {x: 13, y: -29}
+        - {x: 20, y: -16}
+        - {x: 20, y: 35}
+        - {x: 19, y: 39}
+    - name: tux_from_linux_19
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 160
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 39}
+        - {x: -6, y: 39}
+        - {x: -12, y: 37}
+        - {x: -18, y: 31}
+        - {x: -18, y: 1}
+        - {x: -13, y: -28}
+        - {x: -11, y: -29}
+        - {x: 16, y: -29}
+        - {x: 24, y: -5}
+        - {x: 24, y: 35}
+    - name: tux_from_linux_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 39}
+        - {x: -14, y: 37}
+        - {x: -14, y: -12}
+        - {x: -10, y: -29}
+        - {x: 22, y: -29}
+        - {x: 28, y: -12}
+        - {x: 28, y: 38}
+        - {x: 24, y: 39}
+    - name: tux_from_linux_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 33}
+        - {x: 11, y: 35}
+        - {x: -18, y: 35}
+        - {x: -23, y: 32}
+        - {x: -23, y: -22}
+        - {x: -9, y: -31}
+        - {x: 19, y: -31}
+        - {x: 21, y: -30}
+        - {x: 21, y: 29}
+    - name: tux_from_linux_22
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 80
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 35}
+        - {x: -26, y: 30}
+        - {x: -26, y: 0}
+        - {x: -25, y: -8}
+        - {x: -21, y: -30}
+        - {x: 26, y: -30}
+        - {x: 26, y: 32}
+        - {x: 15, y: 35}
+    - name: tux_from_linux_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 35}
+        - {x: -24, y: 35}
+        - {x: -26, y: 30}
+        - {x: -26, y: -2}
+        - {x: -22, y: -30}
+        - {x: 28, y: -30}
+        - {x: 28, y: 6}
+        - {x: 24, y: 30}
+    - name: tux_from_linux_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 19}
+        - {x: -20, y: 19}
+        - {x: -21, y: 9}
+        - {x: -21, y: -34}
+        - {x: -20, y: -36}
+        - {x: -16, y: -40}
+        - {x: 23, y: -40}
+        - {x: 27, y: -7}
+    - name: tux_from_linux_25
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 19}
+        - {x: -21, y: 15}
+        - {x: -21, y: -40}
+        - {x: 22, y: -40}
+        - {x: 26, y: -28}
+        - {x: 26, y: 11}
+        - {x: 13, y: 19}
+    - name: tux_from_linux_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 19}
+        - {x: -21, y: -40}
+        - {x: 23, y: -40}
+        - {x: 23, y: 13}
+        - {x: 14, y: 19}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
