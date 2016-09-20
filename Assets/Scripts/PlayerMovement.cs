@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		moveX = Input.GetAxis ("Horizontal");
-		moveY = Input.GetButton ("Fire0");
+//		moveY = Input.GetButton ("Fire0");
 		rigid.velocity = new Vector2 (moveX*m_maxSpeed, 0f);
 	}
 }
