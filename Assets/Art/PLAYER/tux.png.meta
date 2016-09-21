@@ -34,7 +34,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -53,7 +53,7 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
@@ -73,11 +73,14 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: tux_from_linux_0
+    - serializedVersion: 2
+      name: tux_from_linux_0
       rect:
         serializedVersion: 2
         x: 0
@@ -87,17 +90,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 15, y: 25}
-        - {x: -14, y: 25}
-        - {x: -21, y: 19}
-        - {x: -22, y: 16}
-        - {x: -22, y: -28}
-        - {x: -19, y: -40}
-        - {x: 17, y: -40}
-        - {x: 20, y: -27}
-        - {x: 20, y: 16}
-    - name: tux_from_linux_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_1
       rect:
         serializedVersion: 2
         x: 56
@@ -107,13 +103,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -21, y: 24}
-        - {x: -22, y: 22}
-        - {x: -22, y: -40}
-        - {x: 20, y: -40}
-        - {x: 20, y: 24}
-    - name: tux_from_linux_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_2
       rect:
         serializedVersion: 2
         x: 112
@@ -123,16 +116,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 18, y: 24}
-        - {x: -18, y: 24}
-        - {x: -22, y: 14}
-        - {x: -22, y: -12}
-        - {x: -16, y: -40}
-        - {x: 18, y: -40}
-        - {x: 20, y: -29}
-        - {x: 20, y: 14}
-    - name: tux_from_linux_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_3
       rect:
         serializedVersion: 2
         x: 0
@@ -142,16 +129,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -11, y: 25}
-        - {x: -21, y: 6}
-        - {x: -21, y: -38}
-        - {x: -20, y: -40}
-        - {x: 22, y: -40}
-        - {x: 28, y: -14}
-        - {x: 28, y: 18}
-        - {x: 16, y: 25}
-    - name: tux_from_linux_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_4
       rect:
         serializedVersion: 2
         x: 56
@@ -161,18 +142,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 25, y: 25}
-        - {x: -5, y: 25}
-        - {x: -18, y: 18}
-        - {x: -21, y: 0}
-        - {x: -21, y: -36}
-        - {x: -20, y: -40}
-        - {x: 20, y: -40}
-        - {x: 26, y: -27}
-        - {x: 28, y: -14}
-        - {x: 28, y: 22}
-    - name: tux_from_linux_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_5
       rect:
         serializedVersion: 2
         x: 112
@@ -182,14 +155,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 19, y: -40}
-        - {x: 28, y: -26}
-        - {x: 28, y: 21}
-        - {x: 23, y: 25}
-        - {x: -21, y: 25}
-        - {x: -21, y: -40}
-    - name: tux_from_linux_6
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_6
       rect:
         serializedVersion: 2
         x: 0
@@ -199,17 +168,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 16, y: 19}
-        - {x: 9, y: 30}
-        - {x: -17, y: 30}
-        - {x: -27, y: 19}
-        - {x: -27, y: -25}
-        - {x: -14, y: -35}
-        - {x: 17, y: -35}
-        - {x: 22, y: -16}
-        - {x: 22, y: -2}
-    - name: tux_from_linux_7
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_7
       rect:
         serializedVersion: 2
         x: 56
@@ -219,16 +181,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15, y: 38}
-        - {x: -27, y: 32}
-        - {x: -27, y: -4}
-        - {x: -16, y: -29}
-        - {x: 15, y: -29}
-        - {x: 19, y: -20}
-        - {x: 19, y: 21}
-        - {x: 13, y: 38}
-    - name: tux_from_linux_8
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_8
       rect:
         serializedVersion: 2
         x: 112
@@ -238,17 +194,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 34}
-        - {x: -26, y: 12}
-        - {x: -26, y: -22}
-        - {x: -23, y: -30}
-        - {x: -14, y: -31}
-        - {x: 20, y: -31}
-        - {x: 27, y: -12}
-        - {x: 27, y: 25}
-        - {x: 22, y: 34}
-    - name: tux_from_linux_9
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_9
       rect:
         serializedVersion: 2
         x: 0
@@ -258,18 +207,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 18, y: 18}
-        - {x: 13, y: 26}
-        - {x: 9, y: 27}
-        - {x: -16, y: 27}
-        - {x: -24, y: 19}
-        - {x: -24, y: -6}
-        - {x: -17, y: -39}
-        - {x: -12, y: -40}
-        - {x: 15, y: -40}
-        - {x: 18, y: -24}
-    - name: tux_from_linux_10
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_10
       rect:
         serializedVersion: 2
         x: 56
@@ -279,14 +220,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -19, y: 27}
-        - {x: -25, y: 24}
-        - {x: -25, y: -19}
-        - {x: -18, y: -40}
-        - {x: 17, y: -40}
-        - {x: 17, y: 27}
-    - name: tux_from_linux_11
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_11
       rect:
         serializedVersion: 2
         x: 112
@@ -296,17 +233,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -21, y: 27}
-        - {x: -24, y: 18}
-        - {x: -24, y: -21}
-        - {x: -17, y: -37}
-        - {x: -16, y: -39}
-        - {x: 8, y: -39}
-        - {x: 19, y: -36}
-        - {x: 19, y: 20}
-        - {x: 7, y: 27}
-    - name: tux_from_linux_12
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_12
       rect:
         serializedVersion: 2
         x: 0
@@ -316,15 +246,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -20, y: 25}
-        - {x: -25, y: 12}
-        - {x: -25, y: -32}
-        - {x: -17, y: -40}
-        - {x: 20, y: -40}
-        - {x: 20, y: 19}
-        - {x: 16, y: 25}
-    - name: tux_from_linux_13
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_13
       rect:
         serializedVersion: 2
         x: 56
@@ -334,16 +259,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 14, y: 25}
-        - {x: -14, y: 25}
-        - {x: -20, y: 18}
-        - {x: -20, y: -22}
-        - {x: -17, y: -40}
-        - {x: 22, y: -40}
-        - {x: 22, y: 17}
-        - {x: 18, y: 24}
-    - name: tux_from_linux_14
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_14
       rect:
         serializedVersion: 2
         x: 112
@@ -353,16 +272,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -13, y: 25}
-        - {x: -17, y: 19}
-        - {x: -18, y: 11}
-        - {x: -18, y: -19}
-        - {x: -15, y: -40}
-        - {x: 20, y: -40}
-        - {x: 24, y: -21}
-        - {x: 24, y: 25}
-    - name: tux_from_linux_15
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_15
       rect:
         serializedVersion: 2
         x: 0
@@ -372,15 +285,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -24, y: 25}
-        - {x: -24, y: -30}
-        - {x: -21, y: -40}
-        - {x: 19, y: -40}
-        - {x: 21, y: -29}
-        - {x: 21, y: 24}
-        - {x: 16, y: 25}
-    - name: tux_from_linux_16
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_16
       rect:
         serializedVersion: 2
         x: 56
@@ -390,15 +298,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -25, y: 25}
-        - {x: -26, y: 21}
-        - {x: -26, y: -36}
-        - {x: -23, y: -40}
-        - {x: 22, y: -40}
-        - {x: 22, y: 24}
-        - {x: 20, y: 25}
-    - name: tux_from_linux_17
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_17
       rect:
         serializedVersion: 2
         x: 112
@@ -408,15 +311,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -26, y: 25}
-        - {x: -26, y: -17}
-        - {x: -16, y: -40}
-        - {x: 1, y: -40}
-        - {x: 25, y: -34}
-        - {x: 25, y: 6}
-        - {x: 12, y: 25}
-    - name: tux_from_linux_18
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_18
       rect:
         serializedVersion: 2
         x: 0
@@ -426,16 +324,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15, y: 39}
-        - {x: -25, y: 29}
-        - {x: -25, y: -10}
-        - {x: -10, y: -29}
-        - {x: 13, y: -29}
-        - {x: 20, y: -16}
-        - {x: 20, y: 35}
-        - {x: 19, y: 39}
-    - name: tux_from_linux_19
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_19
       rect:
         serializedVersion: 2
         x: 56
@@ -445,18 +337,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 15, y: 39}
-        - {x: -6, y: 39}
-        - {x: -12, y: 37}
-        - {x: -18, y: 31}
-        - {x: -18, y: 1}
-        - {x: -13, y: -28}
-        - {x: -11, y: -29}
-        - {x: 16, y: -29}
-        - {x: 24, y: -5}
-        - {x: 24, y: 35}
-    - name: tux_from_linux_20
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_20
       rect:
         serializedVersion: 2
         x: 112
@@ -466,16 +350,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 39}
-        - {x: -14, y: 37}
-        - {x: -14, y: -12}
-        - {x: -10, y: -29}
-        - {x: 22, y: -29}
-        - {x: 28, y: -12}
-        - {x: 28, y: 38}
-        - {x: 24, y: 39}
-    - name: tux_from_linux_21
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_21
       rect:
         serializedVersion: 2
         x: 0
@@ -485,17 +363,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 20, y: 33}
-        - {x: 11, y: 35}
-        - {x: -18, y: 35}
-        - {x: -23, y: 32}
-        - {x: -23, y: -22}
-        - {x: -9, y: -31}
-        - {x: 19, y: -31}
-        - {x: 21, y: -30}
-        - {x: 21, y: 29}
-    - name: tux_from_linux_22
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_22
       rect:
         serializedVersion: 2
         x: 56
@@ -505,16 +376,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -24, y: 35}
-        - {x: -26, y: 30}
-        - {x: -26, y: 0}
-        - {x: -25, y: -8}
-        - {x: -21, y: -30}
-        - {x: 26, y: -30}
-        - {x: 26, y: 32}
-        - {x: 15, y: 35}
-    - name: tux_from_linux_23
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_23
       rect:
         serializedVersion: 2
         x: 112
@@ -524,16 +389,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 10, y: 35}
-        - {x: -24, y: 35}
-        - {x: -26, y: 30}
-        - {x: -26, y: -2}
-        - {x: -22, y: -30}
-        - {x: 28, y: -30}
-        - {x: 28, y: 6}
-        - {x: 24, y: 30}
-    - name: tux_from_linux_24
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_24
       rect:
         serializedVersion: 2
         x: 0
@@ -543,16 +402,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 27, y: 19}
-        - {x: -20, y: 19}
-        - {x: -21, y: 9}
-        - {x: -21, y: -34}
-        - {x: -20, y: -36}
-        - {x: -16, y: -40}
-        - {x: 23, y: -40}
-        - {x: 27, y: -7}
-    - name: tux_from_linux_25
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_25
       rect:
         serializedVersion: 2
         x: 56
@@ -562,15 +415,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -12, y: 19}
-        - {x: -21, y: 15}
-        - {x: -21, y: -40}
-        - {x: 22, y: -40}
-        - {x: 26, y: -28}
-        - {x: 26, y: 11}
-        - {x: 13, y: 19}
-    - name: tux_from_linux_26
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tux_from_linux_26
       rect:
         serializedVersion: 2
         x: 112
@@ -580,12 +428,8 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -21, y: 19}
-        - {x: -21, y: -40}
-        - {x: 23, y: -40}
-        - {x: 23, y: 13}
-        - {x: 14, y: 19}
+      outline: []
+      tessellationDetail: -1
     outline: []
   spritePackingTag: 
   userData: 
