@@ -4,14 +4,14 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
 
 	private bool p_lookR = true;
-	[SerializeField] private bool p_jump = true;
+	private bool p_jump = true;
 
 	private float p_moveForce = 300f;
 	private float p_maxSpeed = 5f;
 	private float p_jumpForce = 500f;
 	[SerializeField] private Transform p_groundCheck;
 
-	private bool p_onGround = false;
+	[SerializeField] private bool p_onGround = false;
 	private Animator p_anim;
 	private Rigidbody2D p_rb;
 
@@ -57,6 +57,7 @@ public class PlayerController : MonoBehaviour {
 			p_rb.AddForce (new Vector2(0f, p_jumpForce));
 			p_jump = false;
 		}
+		p_anim.SetBool ("OnGround", p_onGround);
 	}
 
 	void Flip (){
