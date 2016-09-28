@@ -34,7 +34,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -53,7 +53,7 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
@@ -73,11 +73,14 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: wilber_from_gimp_0
+    - serializedVersion: 2
+      name: wilber_from_gimp_0
       rect:
         serializedVersion: 2
         x: 0
@@ -87,14 +90,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -28, y: 24}
-        - {x: -28, y: -21}
-        - {x: -22, y: -40}
-        - {x: 17, y: -40}
-        - {x: 26, y: -11}
-        - {x: 26, y: 24}
-    - name: wilber_from_gimp_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_1
       rect:
         serializedVersion: 2
         x: 56
@@ -104,13 +103,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -28, y: 24}
-        - {x: -28, y: -40}
-        - {x: 22, y: -40}
-        - {x: 26, y: -19}
-        - {x: 26, y: 24}
-    - name: wilber_from_gimp_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_2
       rect:
         serializedVersion: 2
         x: 112
@@ -120,15 +116,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -28, y: 23}
-        - {x: -28, y: -11}
-        - {x: -20, y: -40}
-        - {x: 16, y: -40}
-        - {x: 18, y: -39}
-        - {x: 26, y: -12}
-        - {x: 26, y: 23}
-    - name: wilber_from_gimp_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_3
       rect:
         serializedVersion: 2
         x: 0
@@ -138,16 +129,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -23, y: 26}
-        - {x: -26, y: 14}
-        - {x: -26, y: -25}
-        - {x: -21, y: -40}
-        - {x: 11, y: -40}
-        - {x: 28, y: -11}
-        - {x: 28, y: 23}
-        - {x: 1, y: 26}
-    - name: wilber_from_gimp_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_4
       rect:
         serializedVersion: 2
         x: 56
@@ -157,16 +142,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -23, y: 26}
-        - {x: -26, y: 14}
-        - {x: -26, y: -25}
-        - {x: -21, y: -40}
-        - {x: 14, y: -40}
-        - {x: 28, y: -21}
-        - {x: 28, y: 23}
-        - {x: 2, y: 26}
-    - name: wilber_from_gimp_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_5
       rect:
         serializedVersion: 2
         x: 112
@@ -176,17 +155,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -24, y: 26}
-        - {x: -26, y: 15}
-        - {x: -26, y: -23}
-        - {x: -21, y: -38}
-        - {x: -18, y: -40}
-        - {x: 17, y: -40}
-        - {x: 28, y: -27}
-        - {x: 28, y: 22}
-        - {x: 0, y: 26}
-    - name: wilber_from_gimp_6
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_6
       rect:
         serializedVersion: 2
         x: 0
@@ -196,15 +168,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -20, y: 24}
-        - {x: -28, y: 18}
-        - {x: -28, y: -16}
-        - {x: -22, y: -37}
-        - {x: 21, y: -37}
-        - {x: 27, y: -14}
-        - {x: 27, y: 24}
-    - name: wilber_from_gimp_7
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_7
       rect:
         serializedVersion: 2
         x: 56
@@ -214,16 +181,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -28, y: 5}
-        - {x: -16, y: -28}
-        - {x: 13, y: -28}
-        - {x: 27, y: -5}
-        - {x: 27, y: 35}
-        - {x: 26, y: 37}
-        - {x: -14, y: 37}
-        - {x: -28, y: 30}
-    - name: wilber_from_gimp_8
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_8
       rect:
         serializedVersion: 2
         x: 112
@@ -233,17 +194,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -1, y: 33}
-        - {x: -23, y: 33}
-        - {x: -23, y: -11}
-        - {x: -14, y: -30}
-        - {x: -2, y: -34}
-        - {x: 18, y: -34}
-        - {x: 28, y: -5}
-        - {x: 28, y: 31}
-        - {x: 26, y: 30}
-    - name: wilber_from_gimp_9
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_9
       rect:
         serializedVersion: 2
         x: 0
@@ -253,17 +207,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 26}
-        - {x: -28, y: 23}
-        - {x: -28, y: 4}
-        - {x: -18, y: -34}
-        - {x: -15, y: -40}
-        - {x: 17, y: -40}
-        - {x: 25, y: -19}
-        - {x: 25, y: 17}
-        - {x: 22, y: 26}
-    - name: wilber_from_gimp_10
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_10
       rect:
         serializedVersion: 2
         x: 56
@@ -273,15 +220,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -25, y: 26}
-        - {x: -26, y: 25}
-        - {x: -26, y: -7}
-        - {x: -21, y: -40}
-        - {x: 22, y: -40}
-        - {x: 24, y: -24}
-        - {x: 24, y: 26}
-    - name: wilber_from_gimp_11
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_11
       rect:
         serializedVersion: 2
         x: 112
@@ -291,19 +233,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 22, y: -6}
-        - {x: 22, y: 23}
-        - {x: 21, y: 24}
-        - {x: -7, y: 26}
-        - {x: -28, y: 26}
-        - {x: -28, y: -20}
-        - {x: -26, y: -33}
-        - {x: -17, y: -40}
-        - {x: 18, y: -40}
-        - {x: 14, y: -27}
-        - {x: 12, y: -22}
-    - name: wilber_from_gimp_12
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_12
       rect:
         serializedVersion: 2
         x: 0
@@ -313,17 +246,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 25, y: 24}
-        - {x: 1, y: 24}
-        - {x: -28, y: 21}
-        - {x: -28, y: -18}
-        - {x: -16, y: -40}
-        - {x: 17, y: -40}
-        - {x: 25, y: -24}
-        - {x: 26, y: -18}
-        - {x: 26, y: 20}
-    - name: wilber_from_gimp_13
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_13
       rect:
         serializedVersion: 2
         x: 56
@@ -333,14 +259,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -28, y: 24}
-        - {x: -28, y: -1}
-        - {x: -20, y: -40}
-        - {x: 17, y: -40}
-        - {x: 27, y: -5}
-        - {x: 27, y: 24}
-    - name: wilber_from_gimp_14
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_14
       rect:
         serializedVersion: 2
         x: 112
@@ -350,14 +272,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -27, y: 24}
-        - {x: -27, y: 12}
-        - {x: -17, y: -40}
-        - {x: 25, y: -40}
-        - {x: 28, y: -22}
-        - {x: 28, y: 24}
-    - name: wilber_from_gimp_15
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_15
       rect:
         serializedVersion: 2
         x: 0
@@ -367,14 +285,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -27, y: 24}
-        - {x: -27, y: -37}
-        - {x: -24, y: -40}
-        - {x: 17, y: -40}
-        - {x: 25, y: -4}
-        - {x: 25, y: 24}
-    - name: wilber_from_gimp_16
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_16
       rect:
         serializedVersion: 2
         x: 56
@@ -384,17 +298,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 7, y: 25}
-        - {x: -26, y: 25}
-        - {x: -26, y: -22}
-        - {x: -25, y: -26}
-        - {x: -21, y: -40}
-        - {x: 20, y: -40}
-        - {x: 24, y: -36}
-        - {x: 24, y: 23}
-        - {x: 23, y: 24}
-    - name: wilber_from_gimp_17
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_17
       rect:
         serializedVersion: 2
         x: 112
@@ -404,14 +311,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -26, y: 26}
-        - {x: -26, y: -33}
-        - {x: -22, y: -40}
-        - {x: 13, y: -40}
-        - {x: 25, y: -34}
-        - {x: 25, y: 26}
-    - name: wilber_from_gimp_18
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_18
       rect:
         serializedVersion: 2
         x: 0
@@ -421,14 +324,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -28, y: 35}
-        - {x: -28, y: 7}
-        - {x: -20, y: -32}
-        - {x: 14, y: -32}
-        - {x: 26, y: 2}
-        - {x: 26, y: 35}
-    - name: wilber_from_gimp_19
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_19
       rect:
         serializedVersion: 2
         x: 56
@@ -438,18 +337,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -28, y: 35}
-        - {x: -28, y: 16}
-        - {x: -25, y: -8}
-        - {x: -9, y: -30}
-        - {x: -3, y: -32}
-        - {x: 8, y: -32}
-        - {x: 13, y: -29}
-        - {x: 25, y: -9}
-        - {x: 26, y: -2}
-        - {x: 26, y: 35}
-    - name: wilber_from_gimp_20
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_20
       rect:
         serializedVersion: 2
         x: 112
@@ -459,17 +350,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 23, y: 37}
-        - {x: -5, y: 37}
-        - {x: -27, y: 32}
-        - {x: -27, y: 16}
-        - {x: -14, y: -31}
-        - {x: 14, y: -31}
-        - {x: 28, y: -7}
-        - {x: 28, y: 29}
-        - {x: 27, y: 33}
-    - name: wilber_from_gimp_21
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_21
       rect:
         serializedVersion: 2
         x: 0
@@ -479,14 +363,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -28, y: 35}
-        - {x: -28, y: -11}
-        - {x: -13, y: -32}
-        - {x: 14, y: -32}
-        - {x: 25, y: -1}
-        - {x: 25, y: 35}
-    - name: wilber_from_gimp_22
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_22
       rect:
         serializedVersion: 2
         x: 56
@@ -496,14 +376,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -28, y: 36}
-        - {x: -28, y: 14}
-        - {x: -24, y: -5}
-        - {x: -12, y: -28}
-        - {x: 27, y: -28}
-        - {x: 27, y: 36}
-    - name: wilber_from_gimp_23
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_23
       rect:
         serializedVersion: 2
         x: 112
@@ -513,17 +389,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -7, y: 36}
-        - {x: -28, y: 36}
-        - {x: -28, y: 9}
-        - {x: -25, y: -8}
-        - {x: -9, y: -28}
-        - {x: 0, y: -28}
-        - {x: 28, y: -20}
-        - {x: 28, y: 20}
-        - {x: 25, y: 34}
-    - name: wilber_from_gimp_24
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_24
       rect:
         serializedVersion: 2
         x: 0
@@ -533,16 +402,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -21, y: 19}
-        - {x: -23, y: 18}
-        - {x: -23, y: -35}
-        - {x: -20, y: -40}
-        - {x: 23, y: -40}
-        - {x: 28, y: -14}
-        - {x: 28, y: 13}
-        - {x: -1, y: 19}
-    - name: wilber_from_gimp_25
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_25
       rect:
         serializedVersion: 2
         x: 56
@@ -552,14 +415,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -25, y: 18}
-        - {x: -25, y: -30}
-        - {x: -19, y: -40}
-        - {x: 25, y: -40}
-        - {x: 28, y: -8}
-        - {x: 28, y: 18}
-    - name: wilber_from_gimp_26
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wilber_from_gimp_26
       rect:
         serializedVersion: 2
         x: 112
@@ -569,14 +428,8 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -28, y: 16}
-        - {x: -28, y: -31}
-        - {x: -22, y: -40}
-        - {x: 23, y: -40}
-        - {x: 27, y: -11}
-        - {x: 27, y: 12}
-        - {x: -6, y: 16}
+      outline: []
+      tessellationDetail: -1
     outline: []
   spritePackingTag: 
   userData: 
