@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour {
 
 	private float p_moveForce = 300f;
 	private float p_maxSpeed = 5f;
-	private float p_jumpForce = 100f;
+	private float p_jumpForce = 500f;
 	[SerializeField] private Transform p_groundCheck;
 
 	private bool p_onGround = false;
