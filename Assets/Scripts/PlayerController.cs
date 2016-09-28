@@ -11,12 +11,12 @@ public class PlayerController : MonoBehaviour {
 	private float p_jumpForce = 500f;
 	[SerializeField] private Transform p_groundCheck;
 
-	[SerializeField] private bool p_onGround = false;
+	private bool p_onGround = false;
 	private Animator p_anim;
 	private Rigidbody2D p_rb;
 
-	private string jumpButton = "Jump_P1";
-	private string horizontalAxis = "Horizontal_P1";
+	[SerializeField] private string jumpButton = "Jump_P1";
+	[SerializeField] private string horizontalAxis = "Horizontal_P1";
 
 	// Use this for initialization
 	void Awake () {
