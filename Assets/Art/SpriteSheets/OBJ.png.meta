@@ -1,18 +1,21 @@
 fileFormatVersion: 2
 guid: f8636474db5f3684ab5865894776bfb9
-timeCreated: 1474532199
+timeCreated: 1475187043
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: OBJ_0
-    21300002: OBJ_1
-    21300004: OBJ_2
-    21300006: OBJ_3
-    21300008: OBJ_4
-    21300010: OBJ_5
-    21300012: OBJ_6
-    21300014: OBJ_7
-    21300016: OBJ_8
+    21300000: OBJ_Tree
+    21300002: OBJ_Power1
+    21300004: OBJ_Plant
+    21300006: OBJ_Bush
+    21300008: OBJ_Bronze
+    21300010: OBJ_Power2
+    21300012: OBJ_Rock
+    21300014: OBJ_Silver
+    21300016: OBJ_Gold
+    21300018: OBJ_Cloud
+    21300020: OBJ_Heart
+    21300022: OBJ_Power3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -62,124 +65,163 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: OBJ_0
+      name: OBJ_Tree
       rect:
         serializedVersion: 2
         x: 21
-        y: 217
+        y: 355
         width: 96
         height: 168
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: OBJ_1
+      name: OBJ_Power1
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 468
+        width: 76
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OBJ_Plant
       rect:
         serializedVersion: 2
         x: 183
-        y: 281
+        y: 419
         width: 49
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: OBJ_2
+      name: OBJ_Bush
       rect:
         serializedVersion: 2
         x: 312
-        y: 281
+        y: 419
         width: 66
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: OBJ_3
-      rect:
-        serializedVersion: 2
-        x: 419
-        y: 281
-        width: 192
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: OBJ_4
+      name: OBJ_Bronze
       rect:
         serializedVersion: 2
         x: 329
+        y: 329
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OBJ_Power2
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 310
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OBJ_Rock
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 281
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OBJ_Silver
+      rect:
+        serializedVersion: 2
+        x: 53
         y: 191
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: OBJ_5
+      name: OBJ_Gold
       rect:
         serializedVersion: 2
-        x: 463
+        x: 191
+        y: 191
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OBJ_Cloud
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 143
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OBJ_Heart
+      rect:
+        serializedVersion: 2
+        x: 527
         y: 190
         width: 40
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: OBJ_6
+      name: OBJ_Power3
       rect:
         serializedVersion: 2
-        x: 167
-        y: 143
-        width: 80
-        height: 48
+        x: 40
+        y: 33
+        width: 55
+        height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: OBJ_7
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 53
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: OBJ_8
-      rect:
-        serializedVersion: 2
-        x: 191
-        y: 53
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     outline: []
-  spritePackingTag: 
+  spritePackingTag: Objects
   userData: 
   assetBundleName: 
   assetBundleVariant: 

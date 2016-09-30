@@ -27,7 +27,7 @@ public class CenterCamera : MonoBehaviour {
 		else
 		{
 			center = ((points [0].position - points [1].position) / 2.0f) + points [1].position;
-			transform.position = new Vector3 (Mathf.Clamp(center.x,center.x,center.x + 100), center.y, -10);
+			transform.position = new Vector3 (center.x, center.y, -10);
 		}
 	}
 }

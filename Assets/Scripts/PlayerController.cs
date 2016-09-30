@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
 
 	private bool p_lookR = true;
-	[SerializeField] private bool p_jump = true;
+	private bool p_jump = true;
 
 	private float p_moveForce = 300f;
 	private float p_maxSpeed = 5f;
@@ -15,8 +15,8 @@ public class PlayerController : MonoBehaviour {
 	private Animator p_anim;
 	private Rigidbody2D p_rb;
 
-	private string jumpButton = "Jump_P1";
-	private string horizontalAxis = "Horizontal_P1";
+	[SerializeField] private string jumpButton = "Jump_P1";
+	[SerializeField] private string horizontalAxis = "Horizontal_P1";
 
 	// Use this for initialization
 	void Awake () {
@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		p_onGround = Physics2D.Linecast (transform.position, p_groundCheck.position, 1 << LayerMask.NameToLayer("Ground") );
+		p_onGround = Physics2D.Raycast (transform.position, p_groundCheck.position,20, 1 << LayerMask.NameToLayer("Ground") );
 
 		if(Input.GetButtonDown(jumpButton) && p_onGround){
 			p_jump = true;
@@ -57,6 +57,7 @@ public class PlayerController : MonoBehaviour {
 			p_rb.AddForce (new Vector2(0f, p_jumpForce));
 			p_jump = false;
 		}
+		p_anim.SetBool ("OnGround", p_onGround);
 	}
 
 	void Flip (){
