@@ -19,17 +19,18 @@ public class PlayerMovementJump : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		onGround = Physics2D.Raycast (transform.position, groundCheck.position, 10, 1<<LayerMask.NameToLayer("Ground"));
-
-		InputController.PlayerJump (doesJump);
-			if(doesJump && onGround){
-				canJump = true;
-			}
 		}
 
 	void FixedUpdate (){
 		if(canJump){
 			rgdbody.AddForce (new Vector2(0f, jumpForce));
 			canJump = false;
+		}
+	}
+
+	public void Jump(){
+		if(onGround){
+			canJump = true;
 		}
 	}
 }
