@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
 
 public class MenuManagement : MonoBehaviour {
 
@@ -29,10 +28,6 @@ public class MenuManagement : MonoBehaviour {
 				canvas [i].SetActive (true);
 			}
 		}
-	}
-	public void LoadScene (int levelNumber)
-	{
-		SceneManager.LoadScene (levelNumber);
 	}
 
 	void SetCanvasFalse()

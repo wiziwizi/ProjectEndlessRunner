@@ -16,7 +16,7 @@ public class CenterCamera : MonoBehaviour {
 
 	void Update ()
 	{
-		//Vector3 currentCameraPosition = cameraLock.getVector ();
+		Vector3 currentCameraPosition = cameraLock.getVector();
 
 		//Debug.Log (currentCameraPosition);
 
