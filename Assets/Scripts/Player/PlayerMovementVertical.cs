@@ -24,4 +24,8 @@ public class PlayerMovementVertical : MonoBehaviour {
 //			rgdbody.velocity = new Vector2 (Mathf.Sign(rgdbody.velocity.x) * maxSpeed, rgdbody.velocity.y);
 //		}
 	}
+
+	public void MovePlayer(){
+		
+	}
 }

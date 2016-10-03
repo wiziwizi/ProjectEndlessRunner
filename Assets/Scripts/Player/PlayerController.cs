@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
 
 	private bool p_lookR = true;
-	private bool p_jump = true;
+	private bool p_jump = false;
 
 	private float p_moveForce = 300f;
 	private float p_maxSpeed = 5f;

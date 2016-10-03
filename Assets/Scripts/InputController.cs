@@ -28,6 +28,14 @@ public class InputController : MonoBehaviour {
 
 		PlayerJump (inputJump);
 		PlayerMove (inputHorizontal);
+
+
+		if(inputJump){
+//			PlayerMovementJump.Jump ();
+		}
+		if(inputHorizontal != 0){
+//			PlayerMovementVertical.MovePlayer ();
+		}
 	}
 }
 

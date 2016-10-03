@@ -13,9 +13,16 @@ public class PickUpRemover : MonoBehaviour {
 	
 	}
 
-	void OnTriggerEnter2D(Collider2D other){
+	GameObject OnTriggerEnter2D(Collider2D other){
 		if(other.CompareTag("Player")){
+			GetPickUp ();
 			this.gameObject.SetActive (false);
 		}
+		return null;
+	}
+
+	public GameObject GetPickUp(){
+		print (this.gameObject);
+		return this.gameObject;
 	}
 }
