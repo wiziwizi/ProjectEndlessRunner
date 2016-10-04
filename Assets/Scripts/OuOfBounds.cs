@@ -11,6 +11,7 @@ public class OuOfBounds : MonoBehaviour {
 		if (other.gameObject.CompareTag(tagOfObject))
 		{
 			Debug.Log ("trigger");
+			//LoseLive ();
 		}
 	}
 }
