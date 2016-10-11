@@ -12,11 +12,6 @@ public class MenuManagement : MonoBehaviour {
 		SetCanvasFalse ();
 		canvas [0].SetActive (true);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
 	public void OnButtonPress (GameObject canvasID)
 	{

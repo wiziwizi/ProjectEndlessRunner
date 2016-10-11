@@ -18,7 +18,7 @@ public class PlayerMovementJump : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		onGround = Physics2D.Raycast (transform.position, groundCheck.position, 10, 1<<LayerMask.NameToLayer("Ground"));
+		onGround = Physics2D.Raycast (transform.position, groundCheck.position, 1, 1<<LayerMask.NameToLayer("Ground"));
 		}
 
 	void FixedUpdate (){

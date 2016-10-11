@@ -11,20 +11,23 @@ public class Health : MonoBehaviour {
 
 	private Vector3 otherPlayerPosition;
 
+	[SerializeField] private int playerID;
+
 	void Awake()
 	{
 		sceneLoader = sceneLoaderObject.GetComponent<SceneLoader>();
-		otherPlayerPosition = GameObject.Find(otherPlayerName).transform.position;
 	}
 
 	public void LoseLife(int retract)
 	{
+		otherPlayerPosition = GameObject.Find(otherPlayerName).transform.position;
 		health -= retract;
 
 		transform.position = new Vector3 (otherPlayerPosition.x, 20, otherPlayerPosition.z);
 
 		if(health <= 0)
 		{
+			PlayerPrefs.SetInt ("playerID", playerID);
 			StartCoroutine (End());
 			transform.position = new Vector3 (otherPlayerPosition.x, otherPlayerPosition.y, otherPlayerPosition.z);
 			Time.timeScale = 0.1f;
