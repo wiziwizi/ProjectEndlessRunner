@@ -13,9 +13,15 @@ public class Health : MonoBehaviour {
 
 	[SerializeField] private int playerID;
 
+	//dead animation;
+	private Animator anim;
+	private bool isDead = false;
+
 	void Awake()
 	{
+		anim = GetComponent<Animator> ();
 		sceneLoader = sceneLoaderObject.GetComponent<SceneLoader>();
+		isDead = false;
 	}
 
 	public void LoseLife(int retract)
@@ -23,23 +29,24 @@ public class Health : MonoBehaviour {
 		otherPlayerPosition = GameObject.Find(otherPlayerName).transform.position;
 		health -= retract;
 
-		transform.position = new Vector3 (otherPlayerPosition.x, 20, otherPlayerPosition.z);
+		transform.position = new Vector3 (otherPlayerPosition.x, 10, otherPlayerPosition.z);
 
 		if(health <= 0)
 		{
 			PlayerPrefs.SetInt ("playerID", playerID);
 			StartCoroutine (End());
+			//Dead animation
+			isDead = true;
+			anim.SetBool ("Dead", isDead);
 			transform.position = new Vector3 (otherPlayerPosition.x, otherPlayerPosition.y, otherPlayerPosition.z);
-			Time.timeScale = 0.1f;
 		}
 	}
 
 	IEnumerator End()
 	{
-		yield return new WaitForSeconds (0.5f);
+		yield return new WaitForSeconds (5f);
 		if(sceneLoader != null)
 		{
-			Time.timeScale = 1;
 			sceneLoader.LoadScene (2);
 		}
 	}
