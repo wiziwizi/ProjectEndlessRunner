@@ -26,7 +26,8 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		p_onGround = Physics2D.Raycast (transform.position, p_groundCheck.position, 2, 1 << LayerMask.NameToLayer("Ground") );
+	//	p_onGround = Physics2D.Raycast (transform.position, p_groundCheck.position, 2, 1 << LayerMask.NameToLayer("Ground") );
+		p_onGround = Physics2D.Linecast(transform.position, p_groundCheck.position, 1<<LayerMask.NameToLayer("Ground"));
 
 		if(Input.GetButtonDown(jumpButton) && p_onGround){
 			p_jump = true;
