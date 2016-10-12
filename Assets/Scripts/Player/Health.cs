@@ -25,12 +25,15 @@ public class Health : MonoBehaviour {
 
 		transform.position = new Vector3 (otherPlayerPosition.x, 20, otherPlayerPosition.z);
 
-		if(health <= 0)
+		if(sceneLoaderObject != null)
 		{
-			PlayerPrefs.SetInt ("playerID", playerID);
-			StartCoroutine (End());
-			transform.position = new Vector3 (otherPlayerPosition.x, otherPlayerPosition.y, otherPlayerPosition.z);
-			Time.timeScale = 0.1f;
+			if(health <= 0)
+			{
+				PlayerPrefs.SetInt ("playerID", playerID);
+				StartCoroutine (End());
+				transform.position = new Vector3 (otherPlayerPosition.x, otherPlayerPosition.y, otherPlayerPosition.z);
+				Time.timeScale = 0.1f;
+			}	
 		}
 	}
 
