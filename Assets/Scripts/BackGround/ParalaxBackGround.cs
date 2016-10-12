@@ -16,7 +16,10 @@ public class ParalaxBackGround : MonoBehaviour {
 	}
 	void Update ()
 	{
-		currentCameraPosition = new Vector2(Camera.main.transform.position.x, Camera.main.transform.position.y);
+		//if(Camera.main != null){
+			currentCameraPosition = new Vector2(Camera.main.transform.position.x, Camera.main.transform.position.y);
+		//}
+
 
 		if (currentCameraPosition.x > previousCamPos.x)
 		{

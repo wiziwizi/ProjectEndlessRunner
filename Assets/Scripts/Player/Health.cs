@@ -16,11 +16,15 @@ public class Health : MonoBehaviour {
 	//dead animation;
 	private Animator anim;
 	private bool isDead = false;
+	private PlayerController playerController;
 
 	void Awake()
 	{
+		playerController = GetComponent<PlayerController> ();
 		anim = GetComponent<Animator> ();
 		sceneLoader = sceneLoaderObject.GetComponent<SceneLoader>();
+
+		playerController.enabled = true;
 		isDead = false;
 	}
 
@@ -36,6 +40,7 @@ public class Health : MonoBehaviour {
 			PlayerPrefs.SetInt ("playerID", playerID);
 			StartCoroutine (End());
 			//Dead animation
+			playerController.enabled = false;
 			isDead = true;
 			anim.SetBool ("Dead", isDead);
 			transform.position = new Vector3 (otherPlayerPosition.x, otherPlayerPosition.y, otherPlayerPosition.z);
@@ -44,7 +49,7 @@ public class Health : MonoBehaviour {
 
 	IEnumerator End()
 	{
-		yield return new WaitForSeconds (5f);
+		yield return new WaitForSeconds (3f);
 		if(sceneLoader != null)
 		{
 			sceneLoader.LoadScene (2);
