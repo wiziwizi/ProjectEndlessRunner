@@ -81,3 +81,4 @@ $RECYCLE.BIN/
 *.lnk
 Assets/Prefabs/Objects/OBJ_Power1.prefab.meta
 Assets/Prefabs/Objects/OBJ_Power1.prefab.meta
+Assets/Scripts/Player/Health.cs

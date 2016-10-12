@@ -11,8 +11,8 @@ public class CameraLock : MonoBehaviour {
 		newPosition = transform.position;
 
 		transform.position = new Vector3(Mathf.Clamp(transform.position.x, oldPosition.x, transform.position.x + 10),transform.position.y,transform.position.z);
-		Debug.Log ("current: " + transform.position.x);
-		Debug.Log ("old: " + oldPosition.x);
+		//Debug.Log ("current: " + transform.position.x);
+		//Debug.Log ("old: " + oldPosition.x);
 
 		oldPosition = newPosition;
 	}

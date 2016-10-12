@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class OuOfBounds : MonoBehaviour {
+public class OutOfBounds : MonoBehaviour {
 
 	[SerializeField] private string tagOfObject;
 	private Health lifeScript;
