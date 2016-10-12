@@ -6,10 +6,11 @@ public class PlayerSpriteFlip : MonoBehaviour {
 	/*This Class is responsible for the Flipping the Sprite needed for the PlayerMovement (Vertical)*/
 
 	private bool lookRight = true;
+	private PlayerController playerController;
 
 	// Use this for initialization
 	void Start () {
-	
+		playerController = GetComponent<PlayerController> ();
 	}
 	
 	// Update is called once per frame
