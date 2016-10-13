@@ -12,7 +12,8 @@ public class ChunkLoader : MonoBehaviour {
 	void Start()
 	{
 		
-		randomNumber = Random.Range (0, 3);
+		randomNumber = Random.Range (0, 2);
+		print (randomNumber);
 		levelChunks[randomNumber].SetActive (true);
 		oldRandomNumber = randomNumber;
 	}
@@ -21,6 +22,7 @@ public class ChunkLoader : MonoBehaviour {
 	{
 		levelChunks[oldRandomNumber].SetActive (false);
 		randomNumber = Random.Range (0, 2);
+		print (randomNumber);
 		transform.position += backGroundSize;
 		levelChunks[randomNumber].SetActive (true);
 		oldRandomNumber = randomNumber;
