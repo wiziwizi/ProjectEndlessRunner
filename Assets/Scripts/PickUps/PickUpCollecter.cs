@@ -15,12 +15,6 @@ public class PickUpCollecter : MonoBehaviour {
 		playerController = GetComponent<PlayerController> ();
 		timer.y = 10f;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
 
 	void OnTriggerEnter2D(Collider2D pickUp){
 		if(pickUp.CompareTag("SpeedUp")){
