@@ -67,4 +67,8 @@ public class PlayerController : MonoBehaviour {
 		p_Scale.x *= -1;
 		transform.localScale = p_Scale;
 	}
+
+	public void SetMaxSpeed (float newMaxSpeed){
+		p_maxSpeed = newMaxSpeed;
+	}
 }

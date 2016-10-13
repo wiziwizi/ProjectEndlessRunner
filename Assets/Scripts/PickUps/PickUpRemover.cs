@@ -22,7 +22,7 @@ public class PickUpRemover : MonoBehaviour {
 	}
 
 	public GameObject GetPickUp(){
-		print (this.gameObject);
+//		print (this.gameObject);
 		return this.gameObject;
 	}
 }
