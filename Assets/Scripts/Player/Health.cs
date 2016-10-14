@@ -1,7 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+
+/// <summary>
+/// This script is responisible for the Health of the player.
+/// </summary>
+
 public class Health : MonoBehaviour {
-	[SerializeField] private int health;
+	[SerializeField] private int health; // indicates how much lifes the player has.
 	[SerializeField] private string otherPlayerName;
 	[SerializeField] private GameObject sceneLoaderObject;
 	[SerializeField] private int playerID;

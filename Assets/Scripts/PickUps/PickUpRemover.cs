@@ -3,15 +3,10 @@ using System.Collections;
 
 public class PickUpRemover : MonoBehaviour {
 
-	GameObject OnTriggerEnter2D(Collider2D other){
-		if(other.CompareTag("Player")){
-			GetPickUp ();
-			this.gameObject.SetActive (false);
+	void OnTriggerEnter2D(Collider2D other){
+		if(other.CompareTag("Player")){ // if the player hits the pickup.
+			this.gameObject.SetActive (false); // sets the object false.
 		}
-		return null;
 	}
 
-	public GameObject GetPickUp(){
-		return this.gameObject;
-	}
 }

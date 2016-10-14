@@ -3,72 +3,72 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 
-	private bool p_lookR = true;
-	private bool p_jump = false;
+	private bool player_flip = true;
+	private bool player_jump = false;
 
-	private float p_moveForce = 300f;
-	private float p_maxSpeed = 5f;
-	private float p_jumpForce = 500f;
-	[SerializeField] private Transform p_groundCheck;
+	private float player_moveForce = 300f;
+	private float player_maxSpeed = 5f;
+	private float player_jumpForce = 500f;
+	[SerializeField] private Transform player_groundCheck;
 
-	private bool p_onGround = false;
-	private Animator p_anim;
-	private Rigidbody2D p_rb;
+	private bool player_onGround = false;
+	private Animator player_anim;
+	private Rigidbody2D player_rb;
 
 	[SerializeField] private string jumpButton = "Jump_P1";
 	[SerializeField] private string horizontalAxis = "Horizontal_P1";
 
 	// Use this for initialization
 	void Awake () {
-		p_anim = GetComponent<Animator> ();
-		p_rb = GetComponent<Rigidbody2D> ();
+		player_anim = GetComponent<Animator> ();
+		player_rb = GetComponent<Rigidbody2D> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	//	p_onGround = Physics2D.Raycast (transform.position, p_groundCheck.position, 2, 1 << LayerMask.NameToLayer("Ground") );
-		p_onGround = Physics2D.Linecast(transform.position, p_groundCheck.position, 1<<LayerMask.NameToLayer("Ground"));
+		player_onGround = Physics2D.Linecast(transform.position, player_groundCheck.position, 1<<LayerMask.NameToLayer("Ground")); // checks if the ground is close enough to jump.
 
-		if(Input.GetButtonDown(jumpButton) && p_onGround){
-			p_jump = true;
+		if(Input.GetButtonDown(jumpButton) && player_onGround){ // if the player trys to jump and onground = true.
+			player_jump = true;
 		}
 	//}
 
 	//void FixedUpdate(){
-		float p_hori = Input.GetAxis (horizontalAxis);
+		float player_hori = Input.GetAxis (horizontalAxis);
 
-		p_anim.SetFloat ("Speed", Mathf.Abs(p_hori));
+		player_anim.SetFloat ("Speed", Mathf.Abs(player_hori));
 		//Check under speed limit;
-		if(p_hori * p_rb.velocity.x < p_maxSpeed){
-			p_rb.AddForce (Vector2.right * p_hori * p_moveForce);
+		if(player_hori * player_rb.velocity.x < player_maxSpeed){
+			player_rb.AddForce (Vector2.right * player_hori * player_moveForce);
 		}
 		//Too fast;
-		if(Mathf.Abs(p_rb.velocity.x) > p_maxSpeed){
-			p_rb.velocity = new Vector2 (Mathf.Sign(p_rb.velocity.x) * p_maxSpeed, p_rb.velocity.y);
+		if(Mathf.Abs(player_rb.velocity.x) > player_maxSpeed){
+			player_rb.velocity = new Vector2 (Mathf.Sign(player_rb.velocity.x) * player_maxSpeed, player_rb.velocity.y);
 		}
 
-		if(p_hori > 0 && !p_lookR){
+		if(player_hori > 0 && !player_flip){
 			Flip ();
-		} else if(p_hori < 0 && p_lookR){
+		} else if(player_hori < 0 && player_flip){
 			Flip ();
 		}
 
-		if(p_jump){
-			p_anim.SetTrigger ("Jump");
-			p_rb.AddForce (new Vector2(0f, p_jumpForce));
-			p_jump = false;
+		if(player_jump){
+			player_anim.SetTrigger ("Jump");
+			player_rb.AddForce (new Vector2(0f, player_jumpForce));
+			player_jump = false;
 		}
-		p_anim.SetBool ("OnGround", p_onGround);
+		player_anim.SetBool ("OnGround", player_onGround);
 	}
 
 	void Flip (){
-		p_lookR = !p_lookR;
+		player_flip = !player_flip;
 		Vector3 p_Scale = transform.localScale;
 		p_Scale.x *= -1;
 		transform.localScale = p_Scale;
 	}
 
 	public void SetMaxSpeed (float newMaxSpeed){
-		p_maxSpeed = newMaxSpeed;
+		player_maxSpeed = newMaxSpeed;
 	}
 }
