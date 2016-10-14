@@ -3,16 +3,6 @@ using System.Collections;
 
 public class PickUpRemover : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
 	GameObject OnTriggerEnter2D(Collider2D other){
 		if(other.CompareTag("Player")){
 			GetPickUp ();
@@ -22,7 +12,6 @@ public class PickUpRemover : MonoBehaviour {
 	}
 
 	public GameObject GetPickUp(){
-//		print (this.gameObject);
 		return this.gameObject;
 	}
 }
