@@ -2,6 +2,11 @@
 using System.Collections;
 using UnityEngine.UI;
 
+/// <summary>
+/// End scene.
+/// This Class is responsible for displaying the Game-Over winning player
+/// </summary>
+
 public class EndScene : MonoBehaviour {
 
 	private int playerID;
