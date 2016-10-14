@@ -5,6 +5,7 @@ public class Health : MonoBehaviour {
 	[SerializeField] private string otherPlayerName;
 	[SerializeField] private GameObject sceneLoaderObject;
 	[SerializeField] private int playerID;
+	[SerializeField] private DataBase dataBase;
 
 	private SceneLoader sceneLoader;
 	private Vector3 otherPlayerPosition;
@@ -14,6 +15,7 @@ public class Health : MonoBehaviour {
 	private PlayerController playerController;
 	void Awake()
 	{
+		dataBase = dataBase.GetComponent<DataBase> ();
 		playerController = GetComponent<PlayerController> ();
 		anim = GetComponent<Animator> ();
 		sceneLoader = sceneLoaderObject.GetComponent<SceneLoader>();
@@ -25,8 +27,10 @@ public class Health : MonoBehaviour {
 		otherPlayerPosition = GameObject.Find(otherPlayerName).transform.position; // check witch player lost a life.
 		health -= retract;//removes the amount of lifes.
 		transform.position = new Vector3 (otherPlayerPosition.x, 10, otherPlayerPosition.z);// if there is an life lost set there position above the other player.
+
 		if(health <= 0)
 		{
+			dataBase.SendScore ();
 			PlayerPrefs.SetInt ("playerID", playerID); // Sets the player number that won in the PlayerPrefs.
 			StartCoroutine (End());
 			//Dead animation
