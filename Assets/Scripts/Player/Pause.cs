@@ -13,7 +13,7 @@ public class Pause : MonoBehaviour {
 
 	public void OnPause()
 	{
-		print ("Start Pause");
+//		print ("Start Pause");
 		if(Time.timeScale == 0) {
 			Time.timeScale = 1;
 			canvasHolder.SetCanvasFalse ();
