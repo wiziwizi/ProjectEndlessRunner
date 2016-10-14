@@ -18,9 +18,9 @@ public class InputController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		if(GetComponent<Pause> () != null){	//check if there is a pauseScript
-			pauseRef = GetComponent<Pause> ();	//Link the pause to reference
-		}
+		//if(GetComponent<Pause> () != null){	//check if there is a pauseScript
+			pauseRef = pauseRef.GetComponent<Pause> ();	//Link the pause to reference
+	//	}
 	}
 	
 	// Update is called once per frame
