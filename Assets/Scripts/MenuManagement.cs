@@ -1,6 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/// <summary>
+/// Menu management.
+/// is responisible for activating and deactivating canvases.
+/// </summary>
+
 public class MenuManagement : MonoBehaviour {
 
 	[SerializeField]
@@ -18,7 +23,7 @@ public class MenuManagement : MonoBehaviour {
 		SetCanvasFalse ();
 		for(int i = 0; i < canvas.Length; i++)
 		{
-			if (canvas[i].name == canvasID.name)
+			if (canvas[i].name == canvasID.name) // sets only the given canvas active.
 			{
 				canvas [i].SetActive (true);
 			}
@@ -29,7 +34,7 @@ public class MenuManagement : MonoBehaviour {
 	{
 		for(int i = 0; i < canvas.Length; i++)
 		{
-			canvas [i].SetActive (false);
+			canvas [i].SetActive (false); // sets every canvas off.
 		}
 	}
 }

@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/// <summary>
+///  This script is responisible for Chunk loader.
+/// </summary>
+
 public class ChunkLoader : MonoBehaviour {
 
 	[SerializeField]

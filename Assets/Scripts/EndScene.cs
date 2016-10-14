@@ -16,18 +16,16 @@ public class EndScene : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
 	{
-		playerID = PlayerPrefs.GetInt ("playerID");
-
-		Debug.Log (playerID);
+		playerID = PlayerPrefs.GetInt ("playerID"); // gets the player id who won.
 
 		if(playerID == 1)
 		{
-			Player [1].SetActive (true);
+			Player [1].SetActive (true); // displays player 2 on the screen.
 			text.text = "2";
 		}
 		else
 		{
-			Player [0].SetActive (true);
+			Player [0].SetActive (true); // displays player 1 on the screen.
 		}
 	}
 }

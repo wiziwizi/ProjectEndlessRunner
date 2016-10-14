@@ -1,6 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/// <summary>
+/// User interface controller.
+/// responsible for ceeping the health values.
+/// </summary>
+
 public class UIController : MonoBehaviour {
 
 	[SerializeField] private Health[] players;
@@ -22,13 +27,13 @@ public class UIController : MonoBehaviour {
 
 		if(player1 < oldHealth1)
 		{
-			lifes [counter1].SetActive (false);
+			lifes [counter1].SetActive (false); // removes a life from the canvas from player 1.
 			counter1++;
 		}
 
 		if(player2 < oldHealth2)
 		{
-			lifes [counter2].SetActive (false);
+			lifes [counter2].SetActive (false); // removes a life from the canvas from player 2.
 			counter2++;
 		}
 
