@@ -33,7 +33,7 @@ public class CenterCamera : MonoBehaviour {
 					}
 				}
 
-				transform.position = new Vector3 (center.x, center.y + 1.5f, -10);
+				transform.position = new Vector3 (center.x, center.y + 3f, -10);
 			}
 			
 		oldPosition = newPosition;

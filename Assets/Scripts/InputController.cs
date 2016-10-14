@@ -11,10 +11,12 @@ public class InputController : MonoBehaviour {
 	[SerializeField] private string jumpButton = "Jump_P1";	//The input-string in inputSystem for Jumping
 	[SerializeField] private string horizontalAxis = "Horizontal_P1";	//The input-string in inputSystem for Moving
 	[SerializeField] private string pauseButton = "Pause_P1"; 	//The input-string in inputSystem for Pause
+	[SerializeField] private Pause pauseRef;	//The Reference for Pause
+
 	private bool inputJump;	//The fetched Input for Jump
 	private float inputHorizontal;	//The fetched Input for Moving
 	private bool inputPause;	//The fetched Input for Pause
-	[SerializeField] private Pause pauseRef;	//The Reference for Pause
+	private bool buttonPress;
 
 	// Use this for initialization
 	void Start () {
@@ -50,7 +52,18 @@ public class InputController : MonoBehaviour {
 
 	public void PauseInput(){
 		//return inputPause;
-		pauseRef.OnPause();	//Set the game on Pause
-
+		if(pauseRef != null)
+		{
+			if(buttonPress == false)
+			{
+				buttonPress = true;
+				pauseRef.OnPause();	//Set the game on Pause
+			}
+			else if(buttonPress == true)
+			{
+				pauseRef.OnPause();
+				buttonPress = false;
+			}
+		}
 	}
 }

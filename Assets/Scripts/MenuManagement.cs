@@ -25,7 +25,7 @@ public class MenuManagement : MonoBehaviour {
 		}
 	}
 
-	void SetCanvasFalse()
+	public void SetCanvasFalse()
 	{
 		for(int i = 0; i < canvas.Length; i++)
 		{
