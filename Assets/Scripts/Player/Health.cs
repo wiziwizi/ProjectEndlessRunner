@@ -50,7 +50,7 @@ public class Health : MonoBehaviour {
 		yield return new WaitForSeconds (3f);
 		if(sceneLoader != null)// for if there is no script attached to it
 		{
-			sceneLoader.LoadScene (2);
+			sceneLoader.LoadScene (3);
 		}
 	}
 }
