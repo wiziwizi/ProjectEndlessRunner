@@ -32,9 +32,9 @@ public class PlayerController : MonoBehaviour {
 		if(Input.GetButtonDown(jumpButton) && p_onGround){
 			p_jump = true;
 		}
-	}
+	//}
 
-	void FixedUpdate(){
+	//void FixedUpdate(){
 		float p_hori = Input.GetAxis (horizontalAxis);
 
 		p_anim.SetFloat ("Speed", Mathf.Abs(p_hori));
