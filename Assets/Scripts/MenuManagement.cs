@@ -10,7 +10,7 @@ public class MenuManagement : MonoBehaviour {
 	void Start ()
 	{
 		SetCanvasFalse ();
-		canvas [0].SetActive (true);
+		canvas [0].SetActive (true); //sets all Canvas of disabled exept the first.
 	}
 
 	public void OnButtonPress (GameObject canvasID)

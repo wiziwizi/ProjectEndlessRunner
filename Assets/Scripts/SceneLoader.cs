@@ -6,6 +6,6 @@ public class SceneLoader : MonoBehaviour {
 
 	public void LoadScene (int levelNumber)
 	{
-		SceneManager.LoadScene (levelNumber);
+		SceneManager.LoadScene (levelNumber);// Loads the scene with the given number.
 	}
 }
